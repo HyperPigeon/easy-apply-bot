@@ -1,0 +1,20 @@
+{
+  "name": "easy-apply-bot",
+  "version": "1.0.0",
+  "description": "A bot that auto applies to easy apply job postings on LinkedIn,",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx index.ts"
+  },
+  "type": "module",
+  "author": "HyperPigeon",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "puppeteer": "^22.10.0"
+  }
+}
